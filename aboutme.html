@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About me</title>
+	<style>
+		body{
+			text-align: center;
+			margin: 20px;
+			background-color: skyblue;
+			color: white;
+			font-family: Monaco, sans-serif;
+		}
+
+		h1{
+			font-size: 50px;
+		}
+		form{
+			max-width: 800px;
+			margin: 0 auto;
+			font-size: 20px;
+		}
+
+		label{
+			display: block;
+			margin: 10px 0 5px;
+			font-size: 20px;
+		}
+	
+
+		input[type="submit"]{
+			padding: 10px 20px;
+			margin: 10px 5px;
+			background-color: green;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		input[type="reset"]{
+			padding: 10px 20px;
+			margin: 10px 5px;
+			background-color: red;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="reset"]:hover,
+		input[type="submit"]:hover{
+			background-color: black;
+		}
+ 		
+ 		input[type="text"],
+ 			select{
+			width: 100%;
+			padding: 8px;
+		}
+	</style>
+</head>
+<body>
+		<h1>Form!</h1>
+<form>
+		<label for="select">Choose your grade</label>
+		<select id="select" name="select">
+
+			<option value="Select">Select</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</select>
+
+			<label for="select">Choose your section</label>
+		<select id="select" name="select">
+
+			<option value="Select">Select</option>
+			<option value="Emerald">Emerald</option>
+			<option value="Ruby">Ruby</option>
+			<option value="Topaz">Topaz</option>
+			<option value="Saphire">Saphire</option>
+			<option value="Onyx">Onyx</option>
+		</select>
+
+		<label for="select">Choose your OBMC campus</label>
+		<select id="select" name="select">
+
+			<option value="Select">Select</option>
+			<option value="Angeles">Angeles</option>
+			<option value="Greenhills">Greenhills</option>
+			<option value="Fairview">Fairview</option>
+			<option value="Las Pinas">Las Pinas</option>
+			<option value="Sta. Ana">Sta. Ana</option>
+		</select><br><br>
+
+			<a href="index.html" target="blank">Go Back</a>
+</form>
+</body>
+</html>
